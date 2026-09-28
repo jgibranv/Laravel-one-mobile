@@ -1,0 +1,77 @@
+{
+    "ultimo_folio": 6,
+    "tickets": [
+        {
+            "id": 1,
+            "folio": "TK-000001",
+            "titulo": "No imprime el ticket de venta",
+            "descripcion": "La impresora de la caja 2 deja de imprimir desde el corte de las 9:00.",
+            "sucursal_id": 12,
+            "solicitante": "Laura Mendez",
+            "severidad": "alta",
+            "estatus": "abierto",
+            "created_at": "2026-09-27 09:15:00",
+            "updated_at": "2026-09-27 09:15:00"
+        },
+        {
+            "id": 2,
+            "folio": "TK-000002",
+            "titulo": "Pantalla de captura muy lenta",
+            "descripcion": "El modulo de prospectos tarda mas de 20 segundos en abrir durante la manana.",
+            "sucursal_id": 34,
+            "solicitante": "Carlos Ramirez",
+            "severidad": "media",
+            "estatus": "en_proceso",
+            "created_at": "2026-09-27 08:40:00",
+            "updated_at": "2026-09-27 10:05:00"
+        },
+        {
+            "id": 3,
+            "folio": "TK-000003",
+            "titulo": "Equipo no enciende",
+            "descripcion": "El equipo entregado al cliente no enciende, el cliente solicita cambio.",
+            "sucursal_id": 7,
+            "solicitante": "Ana Beltran",
+            "severidad": "alta",
+            "estatus": "abierto",
+            "created_at": "2026-09-26 17:30:00",
+            "updated_at": "2026-09-26 17:30:00"
+        },
+        {
+            "id": 4,
+            "folio": "TK-000004",
+            "titulo": "Error al imprimir corte de caja",
+            "descripcion": "El corte de caja muestra un total distinto al de los pagos del dia.",
+            "sucursal_id": 12,
+            "solicitante": "Laura Mendez",
+            "severidad": "media",
+            "estatus": "resuelto",
+            "created_at": "2026-09-25 19:10:00",
+            "updated_at": "2026-09-26 11:20:00"
+        },
+        {
+            "id": 5,
+            "folio": "TK-000005",
+            "titulo": "Solicitud de alta de usuario",
+            "descripcion": "Se requiere dar de alta a un cajero nuevo en la sucursal.",
+            "sucursal_id": 21,
+            "solicitante": "Jorge Nava",
+            "severidad": "baja",
+            "estatus": "en_proceso",
+            "created_at": "2026-09-25 12:00:00",
+            "updated_at": "2026-09-25 15:45:00"
+        },
+        {
+            "id": 6,
+            "folio": "TK-000006",
+            "titulo": "Lector de codigo de barras intermitente",
+            "descripcion": "El lector falla de forma intermitente al escanear equipos.",
+            "sucursal_id": 45,
+            "solicitante": "Marisol Duarte",
+            "severidad": "baja",
+            "estatus": "resuelto",
+            "created_at": "2026-09-24 10:25:00",
+            "updated_at": "2026-09-25 09:00:00"
+        }
+    ]
+}
